@@ -26,7 +26,7 @@ shards:
 
   lucky_migrator:
     github: luckyframework/lucky_migrator
-    version: 0.4.1
+    commit: b999c608e7039cd9de6f66ffe08c7cc05da776b3
 
   lucky_record:
     github: luckyframework/lucky_record

@@ -18,4 +18,5 @@ dependencies:
     version: "~> 0.8.0"
   lucky_migrator:
     github: luckyframework/lucky_migrator
-    version: "~> 0.4.0"
+    # version: "~> 0.4.0"
+    branch: master
