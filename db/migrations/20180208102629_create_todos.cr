@@ -13,6 +13,6 @@ class CreateTodos::V20180208102629 < LuckyMigrator::Migration::V1
   end
 
   def rollback
-    # drop :things
+    drop :todos
   end
 end
