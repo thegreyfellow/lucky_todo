@@ -7,7 +7,7 @@ class Todos::IndexSerializer < Lucky::Serializer
   end
 
   private def todos
-    TodoQuery.new.each do |todo|
+    TodoQuery.new.map do |todo|
       Todos::ShowSerializer.new(todo)
     end
   end

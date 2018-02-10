@@ -5,6 +5,7 @@ class Todos::ShowSerializer < Lucky::Serializer
   def render
     {
       todo: {
+        id: @todo.id,
         title: @todo.title,
         description: @todo.description
       }

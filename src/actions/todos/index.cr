@@ -1,5 +1,5 @@
-class Todos::Index < BrowserAction
-  get "/todos" do
+class Todos::Index < ApiAction
+  action do
     json Todos::IndexSerializer.new
   end
 end
