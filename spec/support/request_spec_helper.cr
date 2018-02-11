@@ -24,9 +24,10 @@ class RequestSpecHelper
     request_with_body("PUT", path, with_csrf_token(body))
   end
 
-  def patch(path : String, body : Hash(String, String), headers : HTTP::Headers? = nil)
-    request_with_body("PATCH", path, with_csrf_token(body))
-  end
+  # FIXME: PATCH is not yet handeled by lucky.
+  # def patch(path : String, body : Hash(String, String), headers : HTTP::Headers? = nil)
+  #   request_with_body("PATCH", path, with_csrf_token(body))
+  # end
 
   def delete(path : String, headers : HTTP::Headers? = nil)
     request_with_body("DELETE", path, with_csrf_token(body))
