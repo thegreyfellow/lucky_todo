@@ -20,5 +20,5 @@ dependencies:
     github: luckyframework/lucky_migrator
     version: "~> 0.4.1"
   envy:
-    github: thegreyfellow/envy
-    branch: master
+    github: petoem/envy
+    version: "~> 0.2.0"

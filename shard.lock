@@ -9,8 +9,8 @@ shards:
     version: 0.5.0
 
   envy:
-    github: thegreyfellow/envy
-    commit: 5ba22126ed4091ad54c950dfcf86cedc7066dde9
+    github: petoem/envy
+    version: 0.2.0
 
   habitat:
     github: luckyframework/habitat
