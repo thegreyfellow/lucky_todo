@@ -8,3 +8,6 @@ yarn-error.log
 server
 *.dwarf
 *.local.cr
+
+# custom gitignore configuration
+.env

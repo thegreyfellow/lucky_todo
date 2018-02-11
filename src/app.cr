@@ -12,6 +12,7 @@ require "./actions/**"
 require "./components/**"
 require "./pages/**"
 require "./handlers/**"
+require "../config/envy"
 require "../config/env"
 require "../config/**"
 
