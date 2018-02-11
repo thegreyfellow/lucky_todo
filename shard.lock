@@ -10,7 +10,7 @@ shards:
 
   envy:
     github: thegreyfellow/envy
-    commit: 74959c9133c2166772e35faf978177cd24f77f29
+    commit: 5ba22126ed4091ad54c950dfcf86cedc7066dde9
 
   habitat:
     github: luckyframework/habitat
@@ -30,7 +30,7 @@ shards:
 
   lucky_migrator:
     github: luckyframework/lucky_migrator
-    commit: b999c608e7039cd9de6f66ffe08c7cc05da776b3
+    version: 0.4.1
 
   lucky_record:
     github: luckyframework/lucky_record
