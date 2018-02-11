@@ -1,4 +1,4 @@
-class Todos::Delete < BrowserAction
+class Todos::Delete < ApiAction
   action do
     if TodoQuery.new.find(id).delete
       json({ message: "Todo deleted successfully" }, 201)
